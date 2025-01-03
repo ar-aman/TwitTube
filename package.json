@@ -1,0 +1,20 @@
+{
+  "name": "twittube",
+  "version": "1.0.0",
+  "description": "A Website that works like youtube and twitter",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "index.js",
+    "dev" : "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "twittube"
+  ],
+  "author": "aman",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
