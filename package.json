@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "index.js",
-    "dev" : "nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "node",
@@ -16,5 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "prettier": "^3.4.2"
   }
 }
