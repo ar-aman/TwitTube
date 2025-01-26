@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import {DB_NAME} from "../constants.js";
 
-const mongodb_url = process.env.MONGODB_URL || 'mongodb+srv://amanmongodb:amanmongodb@tweettube.i2y93.mongodb.net';
+const mongodb_url = process.env.MONGODB_URL;
 
 const connectDB = async () => {
     try{
